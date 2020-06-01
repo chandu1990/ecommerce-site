@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+gem 'rails-social-share-button'
 
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-rails'

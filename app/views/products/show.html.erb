@@ -22,6 +22,8 @@
           <dd><%= @product.quantity %></dd>
           <dt>Price</dt>
           <dd>$ <%= @product.price %></dd>
+          <dt>Share</dt>
+          <dd><%= rails_social_share_button_tag(url: product_path(@product), desc: @product.description, image: @product.image.url) %></dd>
         </dl>
       </div>
       <div class="col-sm-8">
